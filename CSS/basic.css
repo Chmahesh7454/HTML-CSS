@@ -1,0 +1,48 @@
+
+/*element selector*/
+
+div{
+    background-color: yellow;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/*class selector*/
+
+
+.unique-style{
+    background-color: rgb(2, 12, 21);
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 240, 240);
+}
+.box-look{
+    background-color: blueviolet;
+    color: black;
+}
+
+.dark-color{
+    background-color: aqua;
+}
+
+/*id selectors using #*/
+
+#section-2{
+    font-size: 45px;
+    color: brown;
+}
+
+
+/*universal selector*/
+
+*{
+    text-align: center;
+}
