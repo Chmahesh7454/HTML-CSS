@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes</title>
+    <style>
+
+       
+        a[href="https://www.youtube.com/"]{
+            
+            color: red;
+           
+            font-size: 30px;
+        }
+
+        a[target ="_blank"]{
+            color: blue;
+            font-size: 40px;
+        }
+
+        button{
+            border-radius: 10px;
+            font-size: 29px;
+            
+            background-color: lightsalmon;
+        }
+
+
+        button:hover {
+            background-color: red;
+            color: white;
+            cursor: pointer;
+        }
+
+        input:focus{
+            background-color: black;
+            color: azure;
+        }
+
+        div > p:first-child, div>p:last-child, div>p:nth-child(5){
+            font-size: 30px;
+            font-weight: 100;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div>
+    <h1>This is just style shhets</h1>
+     <!--- attribute selectors a[href] a[tagert] like this tags 
+            --->
+    
+    <a href="https://www.youtube.com/">youtube</a>
+    <br><br>
+    Name: <input type="text" name="name" placeholder="Enter your name">
+    <br><br>
+    <a target ="_blank" href="https://www.youtube.com/">youtube lite</a>
+    </div>
+
+
+    <div>
+        <h1>this is pseduo classes </h1>
+        <p>pseduo classes are used to cursor changes to pointer and color chnages of content like buttons</p>
+
+        <button>
+            <a href="https://developer.mozilla.org/en-US/">MDN docs</a>
+        </button>
+
+        <input type="password" placeholder="enter your paasword">
+        <div>
+            <p>p1</p>
+            <p>p2</p>
+            <p>p3</p>
+            <p>p4</p>
+            <p>p5</p>
+            <p>p6</p>
+            <p>p7</p>
+            <p>p8</p>
+            <p>p9</p>
+            <p>p10</p>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

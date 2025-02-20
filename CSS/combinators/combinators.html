@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinators</title>
+    <!--combinators
+    
+    1.descendent selector combinator ( ) using (space) tag to tag apply
+    2.child selector combinaotr (>) only child tags will apply
+    3.general sibling selector (~) only same line tags will apply
+    4.adjacent sibling selector (+) only adjacent tagswil apply
+-->
+    <style>
+         div p{
+            color: blue;
+            background-color: red;
+        }
+        div > p{
+            color:aqua;
+            background-color: black;
+        }
+
+        div ~ p{
+            color: brown;
+            background-color: aquamarine;
+        }
+       
+        div + p, div + h1{
+            color: black;
+            background-color: yellowgreen;
+        }
+    </style>
+
+</head>
+<body>
+    <p>this is p tag</p>
+    <div>
+        <p>This is Page 1 tag</p>
+
+        <span>
+            <p>This is Page 2 tag</p>
+        </span>
+
+    </div>
+
+    <h1>this h1 tag</h1>
+    <div>
+        <span>
+            <p>this is check tag</p>
+        </span>
+    </div>
+        
+
+
+    <div>
+        <p>This is page 3 tag</p>
+        <p>This is page 4 tag</p>
+        <p>This is page 5 tag</p>
+
+    </div>
+
+    <p>Thus is page 6 tag </p>
+    <p>this is page 7 tag</p>
+</body>
+</html>

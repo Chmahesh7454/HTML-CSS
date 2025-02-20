@@ -1,0 +1,49 @@
+/* ### FLEX or FLEX BOX
+
+- flexbox is a one-dimensional layout system (row(horizontal) , column (vertical))
+
+1. understand the two-axis
+   |
+   |
+   |
+   cross axis
+   ------main -------- axis --->
+   |
+   |
+   |
+
+flex properties
+
+### parent properties
+
+    - display  (block)
+        -flex
+
+- flex-direction (row) - column
+  -row
+  -column-reverse
+  -row-reverse
+- flex-wrap (nowrap) - wrap - no wrap
+  -wrap-reverse
+  -justified-content ( row -main axis) (column- main axis) - flex-start
+  -flex-end
+  -center
+  -space-between
+  -space-around
+  -space-evenly
+  -align-items (stretch -cross axis (column)) ( single row or cloumn) - flex-start
+  -flex-end
+  -center
+  -align-content ( you need to have multiple row or column) - -flex-start
+  -flex-end
+  -center
+  -space-between
+  -space-around
+  -space-evenly
+
+  ## child properties
+
+  - order
+  - flex-grow
+  - flex-shrink
+  - flex-basis */
